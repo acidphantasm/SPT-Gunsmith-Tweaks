@@ -56,52 +56,52 @@ class Mod implements IPostDBLoadMod {
             log("Adding MP-133 to Gunsmith Part 1...");
             const setupGunsmith1 = quests[IDS.GunsmithPart1].rewards.Started;
             const newGP1Reward = {
-                findInRaid: true,
-				id: "674f4246cc0bbde12f5bcc1e",
-                index: 0,
-                Items: [
+                "findInRaid": true,
+				"id": "674f4246cc0bbde12f5bcc1e",
+                "index": 0,
+                "items": [
 					{
-						_id: "674f242414121869ec032c84",
-						_tpl: "54491c4f4bdc2db1078b4568",
-						upd: {
-							Repairable: {
-								MaxDurability: 100,
-								Durability: 100
+						"_id": "674f242414121869ec032c84",
+						"_tpl": "54491c4f4bdc2db1078b4568",
+						"upd": {
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
 							},
-							FireMode: {
-								FireMode: "single"
+							"FireMode": {
+								"FireMode": "single"
 							}
 						}
 					},
 					{
-						_id: "674f242414121869ec032c85",
-						_tpl: "55d4491a4bdc2d882f8b456e",
-						slotId: "mod_barrel",
-						parentId: "674f242414121869ec032c84"
+						"_id": "674f242414121869ec032c85",
+						"_tpl": "55d4491a4bdc2d882f8b456e",
+						"slotId": "mod_barrel",
+						"parentId": "674f242414121869ec032c84"
 					},
 					{
-						_id: "674f242414121869ec032c86",
-						_tpl: "55d45d3f4bdc2d972f8b456c",
-						slotId: "mod_handguard",
-						parentId: "674f242414121869ec032c84"
+						"_id": "674f242414121869ec032c86",
+						"_tpl": "55d45d3f4bdc2d972f8b456c",
+						"slotId": "mod_handguard",
+						"parentId": "674f242414121869ec032c84"
 					},
 					{
-						_id: "674f242414121869ec032c87",
-						_tpl: "55d484b44bdc2d1d4e8b456d",
-						slotId: "mod_magazine",
-						parentId: "674f242414121869ec032c84"
+						"_id": "674f242414121869ec032c87",
+						"_tpl": "55d484b44bdc2d1d4e8b456d",
+						"slotId": "mod_magazine",
+						"parentId": "674f242414121869ec032c84"
 					},
 					{
-						_id: "674f242414121869ec032c88",
-						_tpl: "56083cba4bdc2de22e8b456f",
-						slotId: "mod_stock",
-						parentId: "674f242414121869ec032c84"
+						"_id": "674f242414121869ec032c88",
+						"_tpl": "56083cba4bdc2de22e8b456f",
+						"slotId": "mod_stock",
+						"parentId": "674f242414121869ec032c84"
 					}
 				],
-                target: "674f242414121869ec032c84",
-                type: QuestRewardType.ITEM,
-                unknown: false,
-                value: 1
+                "target": "674f242414121869ec032c84",
+                "type": QuestRewardType.ITEM,
+                "unknown": false,
+                "value": 1
             }
             setupGunsmith1.push(newGP1Reward);
 
@@ -112,232 +112,232 @@ class Mod implements IPostDBLoadMod {
             log("Adding MP5 to Gunsmith Part 3...");
             const setupGunsmith3 = quests[IDS.GunsmithPart3].rewards.Started;
             const newGP3Reward = {
-                findInRaid: true,
-				id: "674f426d3f4dca929209ef99",
-                index: 0,
-                Items: [
+                "findInRaid": true,
+				"id": "674f426d3f4dca929209ef99",
+                "index": 0,
+                "items": [
 					{
-						_id: "674f2cb8ac7331365c031faa",
-						_tpl: "5926bb2186f7744b1c6c6e60",
-						upd: {
-							Repairable: {
-								MaxDurability: 100,
-								Durability: 100
+						"_id": "674f2cb8ac7331365c031faa",
+						"_tpl": "5926bb2186f7744b1c6c6e60",
+						"upd": {
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
 							},
-							FireMode: {
-								FireMode: "single"
+							"FireMode": {
+								"FireMode": "single"
 							}
 						}
 					},
 					{
-						_id: "674f2cb8ac7331365c031fab",
-						_tpl: "5926c3b286f774640d189b6b",
-						slotId: "mod_magazine",
-						parentId: "674f2cb8ac7331365c031faa"
+						"_id": "674f2cb8ac7331365c031fab",
+						"_tpl": "5926c3b286f774640d189b6b",
+						"slotId": "mod_magazine",
+						"parentId": "674f2cb8ac7331365c031faa"
 					},
 					{
-						_id: "674f2cb8ac7331365c031fac",
-						_tpl: "5926c0df86f77462f647f764",
-						slotId: "mod_reciever",
-						parentId: "674f2cb8ac7331365c031faa"
+						"_id": "674f2cb8ac7331365c031fac",
+						"_tpl": "5926c0df86f77462f647f764",
+						"slotId": "mod_reciever",
+						"parentId": "674f2cb8ac7331365c031faa"
 					},
 					{
-						_id: "674f2cb8ac7331365c031fad",
-						_tpl: "5926c32286f774616e42de99",
-						slotId: "mod_charge",
-						parentId: "674f2cb8ac7331365c031faa"
+						"_id": "674f2cb8ac7331365c031fad",
+						"_tpl": "5926c32286f774616e42de99",
+						"slotId": "mod_charge",
+						"parentId": "674f2cb8ac7331365c031faa"
 					},
 					{
-						_id: "674f2cb8ac7331365c031fae",
-						_tpl: "5926c36d86f77467a92a8629",
-						slotId: "mod_handguard",
-						parentId: "674f2cb8ac7331365c031fac"
+						"_id": "674f2cb8ac7331365c031fae",
+						"_tpl": "5926c36d86f77467a92a8629",
+						"slotId": "mod_handguard",
+						"parentId": "674f2cb8ac7331365c031fac"
 					},
 					{
-						_id: "674f2cb8ac7331365c031faf",
-						_tpl: "5926d2be86f774134d668e4e",
-						slotId: "mod_sight_rear",
-						upd: {
-							Sight: {
-								ScopesCurrentCalibPointIndexes: [
+						"_id": "674f2cb8ac7331365c031faf",
+						"_tpl": "5926d2be86f774134d668e4e",
+						"slotId": "mod_sight_rear",
+						"upd": {
+							"Sight": {
+								"ScopesCurrentCalibPointIndexes": [
 									0
 								],
-								ScopesSelectedModes: [
+								"ScopesSelectedModes": [
 									0
 								],
-								SelectedScope: 0,
-								ScopeZoomValue: 0
+								"SelectedScope": 0,
+								"ScopeZoomValue": 0
 							}
 						},
-						parentId: "674f2cb8ac7331365c031fac"
+						"parentId": "674f2cb8ac7331365c031fac"
 					},
 					{
-						_id: "674f2cb8ac7331365c031fb0",
-						_tpl: "5926d3c686f77410de68ebc8",
-						slotId: "mod_stock",
-						parentId: "674f2cb8ac7331365c031fac"
+						"_id": "674f2cb8ac7331365c031fb0",
+						"_tpl": "5926d3c686f77410de68ebc8",
+						"slotId": "mod_stock",
+						"parentId": "674f2cb8ac7331365c031fac"
 					},
 					{
-						_id: "674f2cb8ac7331365c031fb1",
-						_tpl: "5926e16e86f7742f5a0f7ecb",
-						slotId: "mod_muzzle",
-						parentId: "674f2cb8ac7331365c031fac"
+						"_id": "674f2cb8ac7331365c031fb1",
+						"_tpl": "5926e16e86f7742f5a0f7ecb",
+						"slotId": "mod_muzzle",
+						"parentId": "674f2cb8ac7331365c031fac"
 					}
 				],
-                target: "674f2cb8ac7331365c031faa",
-                type: QuestRewardType.ITEM,
-                unknown: false,
-                value: 1
+                "target": "674f2cb8ac7331365c031faa",
+                "type": QuestRewardType.ITEM,
+                "unknown": false,
+                "value": 1
             }
             setupGunsmith3.push(newGP3Reward);
             // Gunsmith Part 4
             log("Adding OP-SKS to Gunsmith Part 4...");
             const setupGunsmith4 = quests[IDS.GunsmithPart4].rewards.Started;
             const newGP4Reward = {
-                findInRaid: true,
-				id: "674f4257f4f927f030145097",
-                index: 0,
-				Items: [
+                "findInRaid": true,
+				"id": "674f4257f4f927f030145097",
+                "index": 0,
+				"items": [
 					{
-						_id: "674f2cd2ac7331365c031fbc",
-						_tpl: "587e02ff24597743df3deaeb",
-						upd: {
-							Repairable: {
-								MaxDurability: 100,
-								Durability: 100
+						"_id": "674f2cd2ac7331365c031fbc",
+						"_tpl": "587e02ff24597743df3deaeb",
+						"upd": {
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
 							},
-							FireMode: {
-								FireMode: "single"
+							"FireMode": {
+								"FireMode": "single"
 							}
 						}
 					},
 					{
-						_id: "674f2cd2ac7331365c031fbd",
-						_tpl: "587e0531245977466077a0f7",
-						slotId: "mod_stock",
-						parentId: "674f2cd2ac7331365c031fbc"
+						"_id": "674f2cd2ac7331365c031fbd",
+						"_tpl": "587e0531245977466077a0f7",
+						"slotId": "mod_stock",
+						"parentId": "674f2cd2ac7331365c031fbc"
 					},
 					{
-						_id: "674f2cd2ac7331365c031fbe",
-						_tpl: "634eff66517ccc8a960fc735",
-						slotId: "mod_barrel",
-						parentId: "674f2cd2ac7331365c031fbc"
+						"_id": "674f2cd2ac7331365c031fbe",
+						"_tpl": "634eff66517ccc8a960fc735",
+						"slotId": "mod_barrel",
+						"parentId": "674f2cd2ac7331365c031fbc"
 					},
 					{
-						_id: "674f2cd2ac7331365c031fbf",
-						_tpl: "587df3a12459772c28142567",
-						slotId: "mod_magazine",
-						parentId: "674f2cd2ac7331365c031fbc"
+						"_id": "674f2cd2ac7331365c031fbf",
+						"_tpl": "587df3a12459772c28142567",
+						"slotId": "mod_magazine",
+						"parentId": "674f2cd2ac7331365c031fbc"
 					},
 					{
-						_id: "674f2cd2ac7331365c031fc0",
-						_tpl: "634f06262e5def262d0b30ca",
-						slotId: "mod_reciever",
-						parentId: "674f2cd2ac7331365c031fbc"
+						"_id": "674f2cd2ac7331365c031fc0",
+						"_tpl": "634f06262e5def262d0b30ca",
+						"slotId": "mod_reciever",
+						"parentId": "674f2cd2ac7331365c031fbc"
 					},
 					{
-						_id: "674f2cd2ac7331365c031fc1",
-						_tpl: "634f05a21f9f536910079b56",
-						slotId: "mod_mount_000",
-						parentId: "674f2cd2ac7331365c031fbe"
+						"_id": "674f2cd2ac7331365c031fc1",
+						"_tpl": "634f05a21f9f536910079b56",
+						"slotId": "mod_mount_000",
+						"parentId": "674f2cd2ac7331365c031fbe"
 					},
 					{
-						_id: "674f2cd2ac7331365c031fc2",
-						_tpl: "634f036a517ccc8a960fc746",
-						slotId: "mod_gas_block",
-						parentId: "674f2cd2ac7331365c031fc1"
+						"_id": "674f2cd2ac7331365c031fc2",
+						"_tpl": "634f036a517ccc8a960fc746",
+						"slotId": "mod_gas_block",
+						"parentId": "674f2cd2ac7331365c031fc1"
 					},
 					{
-						_id: "674f2cd2ac7331365c031fc3",
-						_tpl: "574db213245977459a2f3f5d",
-						slotId: "mod_sight_rear",
-						upd: {
-							Sight: {
-								ScopesCurrentCalibPointIndexes: [
+						"_id": "674f2cd2ac7331365c031fc3",
+						"_tpl": "574db213245977459a2f3f5d",
+						"slotId": "mod_sight_rear",
+						"upd": {
+							"Sight": {
+								"ScopesCurrentCalibPointIndexes": [
 									0
 								],
-								ScopesSelectedModes: [
+								"ScopesSelectedModes": [
 									0
 								],
-								SelectedScope: 0,
-								ScopeZoomValue: 0
+								"SelectedScope": 0,
+								"ScopeZoomValue": 0
 							}
 						},
-						parentId: "674f2cd2ac7331365c031fc1"
+						"parentId": "674f2cd2ac7331365c031fc1"
 					},
 					{
-						_id: "674f2cd2ac7331365c031fc4",
-						_tpl: "634f03d40384a3ba4f06f874",
-						slotId: "mod_mount_000",
-						parentId: "674f2cd2ac7331365c031fc2"
+						"_id": "674f2cd2ac7331365c031fc4",
+						"_tpl": "634f03d40384a3ba4f06f874",
+						"slotId": "mod_mount_000",
+						"parentId": "674f2cd2ac7331365c031fc2"
 					}
 				],
-                target: "674f2cd2ac7331365c031fbc",
-                type: QuestRewardType.ITEM,
-                unknown: false,
-                value: 1
+                "target": "674f2cd2ac7331365c031fbc",
+                "type": QuestRewardType.ITEM,
+                "unknown": false,
+                "value": 1
             }
             setupGunsmith4.push(newGP4Reward);
             // Gunsmith Part 5
             log("Adding Remington Model 870 to Gunsmith Part 5...");
             const setupGunsmith5 = quests[IDS.GunsmithPart5].rewards.Started;
             const newGP5Reward = {
-                findInRaid: true,
-				id: "674f427975f61bbb17602a9a",
-                index: 0,
-				Items: [
+                "findInRaid": true,
+				"id": "674f427975f61bbb17602a9a",
+                "index": 0,
+				"items": [
 					{
-						_id: "674f2d57ac7331365c032e6a",
-						_tpl: "5a7828548dc32e5a9c28b516",
-						upd: {
-							Repairable: {
-								MaxDurability: 100,
-								Durability: 100
+						"_id": "674f2d57ac7331365c032e6a",
+						"_tpl": "5a7828548dc32e5a9c28b516",
+						"upd": {
+							"Repairable": {
+								"MaxDurability": 100,
+								"Durability": 100
 							},
-							FireMode: {
-								FireMode: "single"
+							"FireMode": {
+								"FireMode": "single"
 							}
 						}
 					},
 					{
-						_id: "674f2d57ac7331365c032e6b",
-						_tpl: "5a787f7ac5856700177af660",
-						slotId: "mod_barrel",
-						parentId: "674f2d57ac7331365c032e6a"
+						"_id": "674f2d57ac7331365c032e6b",
+						"_tpl": "5a787f7ac5856700177af660",
+						"slotId": "mod_barrel",
+						"parentId": "674f2d57ac7331365c032e6a"
 					},
 					{
-						_id: "674f2d57ac7331365c032e6c",
-						_tpl: "5a788089c5856700142fdd9c",
-						slotId: "mod_handguard",
-						parentId: "674f2d57ac7331365c032e6a"
+						"_id": "674f2d57ac7331365c032e6c",
+						"_tpl": "5a788089c5856700142fdd9c",
+						"slotId": "mod_handguard",
+						"parentId": "674f2d57ac7331365c032e6a"
 					},
 					{
-						_id: "674f2d57ac7331365c032e6d",
-						_tpl: "5a7882dcc5856700177af662",
-						slotId: "mod_magazine",
-						parentId: "674f2d57ac7331365c032e6a"
+						"_id": "674f2d57ac7331365c032e6d",
+						"_tpl": "5a7882dcc5856700177af662",
+						"slotId": "mod_magazine",
+						"parentId": "674f2d57ac7331365c032e6a"
 					},
 					{
-						_id: "674f2d57ac7331365c032e6e",
-						_tpl: "5a7880d0c5856700142fdd9d",
-						slotId: "mod_stock",
-						parentId: "674f2d57ac7331365c032e6a"
+						"_id": "674f2d57ac7331365c032e6e",
+						"_tpl": "5a7880d0c5856700142fdd9d",
+						"slotId": "mod_stock",
+						"parentId": "674f2d57ac7331365c032e6a"
 					}
 				],
-                target: "674f2d57ac7331365c032e6a",
-                type: QuestRewardType.ITEM,
-                unknown: false,
-                value: 1
+                "target": "674f2d57ac7331365c032e6a",
+                "type": QuestRewardType.ITEM,
+                "unknown": false,
+                "value": 1
             }
             setupGunsmith5.push(newGP5Reward);
             // Gunsmith Part 6
             log("Adding AKM to Gunsmith Part 6...");
             const setupGunsmith6 = quests[IDS.GunsmithPart6].rewards.Started;
             const newGP6Reward = {
-                findInRaid: true,
-				id: "674f428a2f4365f0c7a8732d",
-                index: 0,
-				"Items": [
+                "findInRaid": true,
+				"id": "674f428a2f4365f0c7a8732d",
+                "index": 0,
+				"items": [
 					{
 						"_id": "674f2d76ac7331365c032e79",
 						"_tpl": "59d6088586f774275f37482f",
@@ -412,10 +412,10 @@ class Mod implements IPostDBLoadMod {
 						"parentId": "674f2d76ac7331365c032e7a"
 					}
 				],
-                target: "674f2d76ac7331365c032e79",
-                type: QuestRewardType.ITEM,
-                unknown: false,
-                value: 1
+                "target": "674f2d76ac7331365c032e79",
+                "type": QuestRewardType.ITEM,
+                "unknown": false,
+                "value": 1
             }
             setupGunsmith6.push(newGP6Reward);
             // Gunsmith Part 7
