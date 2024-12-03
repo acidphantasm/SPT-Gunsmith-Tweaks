@@ -37,6 +37,8 @@ Parts / LoreAccurate
 
 Prapor's Quest? Maybe...
 
+Mod Overhaul, Mod.ts getting kinda big - Will implement later.
+
 This mod may branch out into something bigger, we see.
 
 ## Special Thanks
