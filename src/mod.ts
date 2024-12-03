@@ -57,6 +57,7 @@ class Mod implements IPostDBLoadMod {
             const setupGunsmith1 = quests[IDS.GunsmithPart1].rewards.Started;
             const newGP1Reward = {
                 findInRaid: true,
+				id: "674f4246cc0bbde12f5bcc1e",
                 index: 0,
                 Items: [
 					{
@@ -112,6 +113,7 @@ class Mod implements IPostDBLoadMod {
             const setupGunsmith3 = quests[IDS.GunsmithPart3].rewards.Started;
             const newGP3Reward = {
                 findInRaid: true,
+				id: "674f426d3f4dca929209ef99",
                 index: 0,
                 Items: [
 					{
@@ -193,6 +195,7 @@ class Mod implements IPostDBLoadMod {
             const setupGunsmith4 = quests[IDS.GunsmithPart4].rewards.Started;
             const newGP4Reward = {
                 findInRaid: true,
+				id: "674f4257f4f927f030145097",
                 index: 0,
 				Items: [
 					{
@@ -280,6 +283,7 @@ class Mod implements IPostDBLoadMod {
             const setupGunsmith5 = quests[IDS.GunsmithPart5].rewards.Started;
             const newGP5Reward = {
                 findInRaid: true,
+				id: "674f427975f61bbb17602a9a",
                 index: 0,
 				Items: [
 					{
@@ -331,6 +335,7 @@ class Mod implements IPostDBLoadMod {
             const setupGunsmith6 = quests[IDS.GunsmithPart6].rewards.Started;
             const newGP6Reward = {
                 findInRaid: true,
+				id: "674f428a2f4365f0c7a8732d",
                 index: 0,
 				"Items": [
 					{
