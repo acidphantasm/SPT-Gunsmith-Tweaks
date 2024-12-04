@@ -2947,7 +2947,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090d5b8531502bd70f839",
-								"_tpl": "", // 
+								"_tpl": "5fbbc383d5cb881a7363194a", // KRISS Vector 9x19 6 inch barrel
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2965,7 +2965,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090df8774a580f25f9296",
-								"_tpl": "", // 
+								"_tpl": "5a32a064c4a28200741e22de", // SilencerCo Osprey 9 9x19 sound suppressor
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2983,7 +2983,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090e86ee51e4414b13c34",
-								"_tpl": "", // 
+								"_tpl": "5fb655b748c711690e3a8d5a", // KRISS Vector non-folding stock adapter
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3001,7 +3001,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090f3810d5a4ef18b2761",
-								"_tpl": "", // 
+								"_tpl": "5649be884bdc2d79388b4577", // AR-15 Colt Carbine buffer tube
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3019,7 +3019,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090fb3f9cd0d5a92982e5",
-								"_tpl": "", // 
+								"_tpl": "5fbbaa86f9986c4cff3fe5f6", // AR-15 KRISS Defiance DS150 stock (Black)
 								"upd": {
 									"StackObjectsCount": 1
 								}
