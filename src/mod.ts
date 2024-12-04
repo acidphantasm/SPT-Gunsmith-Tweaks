@@ -4193,7 +4193,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092f1eabe96111184473b",
-								"_tpl": "", // 
+								"_tpl": "5d025cc1d7ad1a53845279ef", // AR-15 HK Ergo PSG-1 style pistol grip
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4211,7 +4211,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092f9484da94d530bd201",
-								"_tpl": "", // 
+								"_tpl": "5df8f535bb49d91fb446d6b0", // AR-10 7.62x51 KAC 10-round steel magazine
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4229,7 +4229,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675093022f2d098df6677938",
-								"_tpl": "", // 
+								"_tpl": "5d44069ca4b9361ebd26fc37", // AR-15 Magpul PRS GEN3 stock (Black)
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4247,7 +4247,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509306e908e129f52401ac",
-								"_tpl": "", // 
+								"_tpl": "6269220d70b6c02e665f2635", // Magpul M-LOK Cantilever Mount
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4265,7 +4265,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750931338c18fe65fd3691b",
-								"_tpl": "", // 
+								"_tpl": "5d2369418abbc306c62e0c80", // Steiner DBAL-PL tactical device
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4283,7 +4283,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750931d8c1394b99aefe289",
-								"_tpl": "", // 
+								"_tpl": "5b7be4895acfc400170e2dd5", // Magpul M-LOK 4.1 inch rail
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4301,7 +4301,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509326cf42ffc280bbd4b6",
-								"_tpl": "", // 
+								"_tpl": "5b057b4f5acfc4771e1bd3e9", // Stark SE-5 Express Forward foregrip
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4319,7 +4319,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509330575903d69f2bd702",
-								"_tpl": "", // 
+								"_tpl": "5649a2464bdc2d91118b45a8", // NcSTAR MPR45 Backup mount
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4337,7 +4337,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750933c0fc38c8e1ed38d26",
-								"_tpl": "", // 
+								"_tpl": "577d128124597739d65d0e56", // Burris FastFire Weaver Base
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4355,7 +4355,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509345354a97ac59c170e3",
-								"_tpl": "", // 
+								"_tpl": "577d141e24597739c5255e01", // Burris FastFire 3 reflex sight
 								"upd": {
 									"StackObjectsCount": 1
 								}
