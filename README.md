@@ -51,8 +51,8 @@ This mod may branch out into something bigger, we see.
 
 @acidphantasm - for helping me debug why my mod was failing, and for helping debug my issue.
 
-@jahree - for trying to assist and making me push to GitHub
+@jehree - for trying to assist and making me push to GitHub
 
-@sptlaggy - for the mod example, giving me a little assistance in making this (even though it was indirect)
+@sgtlaggy - for the mod example, giving me a little assistance in making this (even though it was indirect)
 
 @SPTTeam - for the whole ability to make / add this mod to SPT
