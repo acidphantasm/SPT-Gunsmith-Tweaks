@@ -3088,7 +3088,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509118e5b69e8fb25746d2",
-								"_tpl": "", // 
+								"_tpl": "59bffc1f86f77435b128b872", // SilencerCo Hybrid 46 Direct Thread Mount adapter
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3106,7 +3106,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509122df6689a1aeb94705",
-								"_tpl": "", // 
+								"_tpl": "59bffbb386f77435b379b9c2", // SilencerCo Hybrid 46 multi-caliber sound suppressor
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3124,7 +3124,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750912aae48fd5dcb8c378e",
-								"_tpl": "", // 
+								"_tpl": "651a8bf3a8520e48047bf708", // Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)
 								"upd": {
 									"StackObjectsCount": 1
 								}
