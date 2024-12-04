@@ -3324,7 +3324,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750918ca9ced55f6ec85b60",
-								"_tpl": "", // 
+								"_tpl": "544909bb4bdc2d6f028b4577", // AN/PEQ-15 tactical device
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3342,7 +3342,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509197b48bea78705f43de",
-								"_tpl": "", // 
+								"_tpl": "5a9e81fba2750c00164f6b11", // 9x39 SR3M.130 30-round magazine
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3360,7 +3360,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750919f039e29701b728fff",
-								"_tpl": "", // 
+								"_tpl": "5a9eb32da2750c00171b3f9c", // AR-15 FAB Defense GL-SHOCK buttstock
 								"upd": {
 									"StackObjectsCount": 1
 								}
