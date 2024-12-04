@@ -2399,6 +2399,7 @@ class Mod implements IPostDBLoadMod {
 					setupGunsmithP4.push(newGP4P4Reward);
 					setupGunsmithP4.push(newGP4P5Reward);
 					setupGunsmithP4.push(newGP4P6Reward);
+
                     // Gunsmith Part 5
                     log("Adding Remington Model 870 Parts to Gunsmith Part 5...");
                     const setupGunsmithP5 = quests[IDS.GunsmithPart5].rewards.Started;
@@ -2478,6 +2479,7 @@ class Mod implements IPostDBLoadMod {
 					setupGunsmithP5.push(newGP5P2Reward);
 					setupGunsmithP5.push(newGP5P3Reward);
 					setupGunsmithP5.push(newGP5P4Reward);
+
                     // Gunsmith Part 6
                     log("Adding AKM Parts to Gunsmith Part 6...");
                     const setupGunsmithP6 = quests[IDS.GunsmithPart6].rewards.Started;
@@ -2557,444 +2559,1998 @@ class Mod implements IPostDBLoadMod {
 					setupGunsmithP6.push(newGP6P2Reward);
 					setupGunsmithP6.push(newGP6P3Reward);
 					setupGunsmithP6.push(newGP6P4Reward);
-                    //// Gunsmith Part 7
-                    //log("Adding M4A1 Parts to Gunsmith Part 7...");
-                    //const setupGunsmithP7 = quests[IDS.GunsmithPart7].rewards.Started;
-					//const newGP7P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP7.push(newGP7P1Reward);
-                    //// Gunsmith Part 8
-                    //log("Adding AKS-74N Parts to Gunsmith Part 8...");
-                    //const setupGunsmithP8 = quests[IDS.GunsmithPart8].rewards.Started;
-					//const newGP8P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP8.push(newGP8P1Reward);
-                    //// Gunsmith Part 9
-                    //log("Adding P226R Parts to Gunsmith Part 9...");
-                    //const setupGunsmithP9 = quests[IDS.GunsmithPart9].rewards.Started;
-					//const newGP9P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP9.push(newGP9P1Reward);
-                    //// Gunsmith Part 10
-                    //log("Adding AK-105 Parts to Gunsmith Part 10...");
-                    //const setupGunsmithP10 = quests[IDS.GunsmithPart10].rewards.Started;
-					//const newGP10P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP10.push(newGP10P1Reward);
-                    //// Gunsmith Part 11
-                    //log("Adding KRISS Vector 9x19 Parts to Gunsmith Part 11...");
-                    //const setupGunsmithP11 = quests[IDS.GunsmithPart11].rewards.Started;
-					//const newGP11P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP11.push(newGP11P1Reward);
-                    //// Gunsmith Part 12
-                    //log("Adding SIG MPX Parts to Gunsmith Part 12...");
-                    //const setupGunsmithP12 = quests[IDS.GunsmithPart12].rewards.Started;
-					//const newGP12P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP12.push(newGP12P1Reward);
-                    //// Gunsmith Part 13
-                    //log("Adding R11 RSASS Parts to Gunsmith Part 13...");
-                    //const setupGunsmithP13 = quests[IDS.GunsmithPart13].rewards.Started;
-					//const newGP13P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP13.push(newGP13P1Reward);
-                    //// Gunsmith Part 14
-                    //log("Adding HK 416A5 Parts to Gunsmith Part 14...");
-                    //const setupGunsmithP14 = quests[IDS.GunsmithPart14].rewards.Started;
-					//const newGP14P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP14.push(newGP14P1Reward);
-                    //// Gunsmith Part 15
-                    //log("Adding AS VAL Parts to Gunsmith Part 15...");
-                    //const setupGunsmithP15 = quests[IDS.GunsmithPart15].rewards.Started;
-					//const newGP15P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP15.push(newGP15P1Reward);
-                    //// Gunsmith Part 16
-                    //log("Adding DVL-10 Parts to Gunsmith Part 16...");
-                    //const setupGunsmithP16 = quests[IDS.GunsmithPart16].rewards.Started;
-					//const newGP16P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP16.push(newGP16P1Reward);
-                    //// Gunsmith Part 17
-                    //log("Adding AK-102 Parts to Gunsmith Part 17...");
-                    //const setupGunsmithP17 = quests[IDS.GunsmithPart17].rewards.Started;
-					//const newGP17P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP17.push(newGP17P1Reward);
-                    //// Gunsmith Part 18
-                    //log("Adding AKMN Parts to Gunsmith Part 18...");
-                    //const setupGunsmithP18 = quests[IDS.GunsmithPart18].rewards.Started;
-					//const newGP18P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP18.push(newGP18P1Reward);
-                    //// Gunsmith Part 19
-                    //log("Adding SVDS Parts to Gunsmith Part 19...");
-                    //const setupGunsmithP19 = quests[IDS.GunsmithPart19].rewards.Started;
-					//const newGP19P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP19.push(newGP19P1Reward);
-                    //// Gunsmith Part 20
-                    //log("Adding M1A Parts to Gunsmith Part 20...");
-                    //const setupGunsmithP20 = quests[IDS.GunsmithPart20].rewards.Started;
-					//const newGP20P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP20.push(newGP20P1Reward);
-                    //// Gunsmith Part 21
-                    //log("Adding M700 & M1911 Parts to Gunsmith Part 21...");
-                    //const setupGunsmithP21 = quests[IDS.GunsmithPart21].rewards.Started;
-                    //const setupGunsmithP21M1911 = quests[IDS.GunsmithPart21].rewards.Started;
-					//const newGP21P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 2,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//const newGP21M1P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 3,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP21.push(newGP21P1Reward);
-					//setupGunsmithP21M1911.push(newGP21M1P1Reward);
-                    //// Gunsmith Part 22
-                    //log("Adding M4A1 Parts to Gunsmith Part 22...");
-                    //const setupGunsmithP22 = quests[IDS.GunsmithPart22].rewards.Started;
-					//const newGP22P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP22.push(newGP22P1Reward);
-                    //// Gunsmith Part 23
-                    //log("Adding CMMG Mk47 Mutant Parts to Gunsmith Part 23...");
-                    //const setupGunsmithP23 = quests[IDS.GunsmithPart23].rewards.Started;
-					//const newGP23P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP23.push(newGP23P1Reward);
-                    //// Gunsmith Part 24
-                    //log("Adding KAC SR-25 Parts to Gunsmith Part 24...");
-                    //const setupGunsmithP24 = quests[IDS.GunsmithPart24].rewards.Started;
-					//const newGP24P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP24.push(newGP24P1Reward);
-					//// Gunsmith Part 25
-                    //log("Adding PKP machine gun Parts to Gunsmith Part 25...");
-                    //const setupGunsmithP25 = quests[IDS.GunsmithPart25].rewards.Started;
-					//const newGP25P1Reward = {
-					//	"findInRaid": true,
-					//	"id": "Generate",
-					//	"index": 1,
-					//	"items": [
-					//		{
-					//			"_id": "",
-					//			"_tpl": "", // 
-					//			"upd": {
-					//				"StackObjectsCount": 1
-					//			}
-					//		}
-					//	],
-					//	"target": "",
-					//	"type": QuestRewardType.ITEM,
-					//	"unknown": false,
-					//	"value": 1
-					//}
-					//setupGunsmithP25.push(newGP25P1Reward);
+
+                    // Gunsmith Part 7
+                    log("Adding M4A1 Parts to Gunsmith Part 7..."); // START HERE
+                    const setupGunsmithP7 = quests[IDS.GunsmithPart7].rewards.Started;
+					const newGP7P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP7P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP7P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP7P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP7P5Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP7.push(newGP7P1Reward);
+					setupGunsmithP7.push(newGP7P2Reward);
+					setupGunsmithP7.push(newGP7P3Reward);
+					setupGunsmithP7.push(newGP7P4Reward);
+					setupGunsmithP7.push(newGP7P5Reward);
+
+                    // Gunsmith Part 8
+                    log("Adding AKS-74N Parts to Gunsmith Part 8...");
+                    const setupGunsmithP8 = quests[IDS.GunsmithPart8].rewards.Started;
+					const newGP8P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP8P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP8P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP8P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP8.push(newGP8P1Reward);
+					setupGunsmithP8.push(newGP8P2Reward);
+					setupGunsmithP8.push(newGP8P3Reward);
+					setupGunsmithP8.push(newGP8P4Reward);
+
+                    // Gunsmith Part 9
+                    log("Adding P226R Parts to Gunsmith Part 9...");
+                    const setupGunsmithP9 = quests[IDS.GunsmithPart9].rewards.Started;
+					const newGP9P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP9P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP9P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP9P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP9.push(newGP9P1Reward);
+					setupGunsmithP9.push(newGP9P2Reward);
+					setupGunsmithP9.push(newGP9P3Reward);
+					setupGunsmithP9.push(newGP9P4Reward);
+
+                    // Gunsmith Part 10
+                    log("Adding AK-105 Parts to Gunsmith Part 10...");
+                    const setupGunsmithP10 = quests[IDS.GunsmithPart10].rewards.Started;
+					const newGP10P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP10P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP10P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP10P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP10P5Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP10P6Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP10.push(newGP10P1Reward);
+					setupGunsmithP10.push(newGP10P2Reward);
+					setupGunsmithP10.push(newGP10P3Reward);
+					setupGunsmithP10.push(newGP10P4Reward);
+					setupGunsmithP10.push(newGP10P5Reward);
+					setupGunsmithP10.push(newGP10P6Reward);
+
+                    // Gunsmith Part 11
+                    log("Adding KRISS Vector 9x19 Parts to Gunsmith Part 11...");
+                    const setupGunsmithP11 = quests[IDS.GunsmithPart11].rewards.Started;
+					const newGP11P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP11P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP11P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP11P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP11P5Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP11.push(newGP11P1Reward);
+					setupGunsmithP11.push(newGP11P2Reward);
+					setupGunsmithP11.push(newGP11P3Reward);
+					setupGunsmithP11.push(newGP11P4Reward);
+					setupGunsmithP11.push(newGP11P5Reward);
+
+                    // Gunsmith Part 12
+                    log("Adding SIG MPX Parts to Gunsmith Part 12...");
+                    const setupGunsmithP12 = quests[IDS.GunsmithPart12].rewards.Started;
+					const newGP12P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP12P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP12.push(newGP12P1Reward);
+					setupGunsmithP12.push(newGP12P2Reward);
+
+                    // Gunsmith Part 13
+                    log("Adding R11 RSASS Parts to Gunsmith Part 13...");
+                    const setupGunsmithP13 = quests[IDS.GunsmithPart13].rewards.Started;
+					const newGP13P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP13P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP13P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP13.push(newGP13P1Reward);
+					setupGunsmithP13.push(newGP13P2Reward);
+					setupGunsmithP13.push(newGP13P3Reward);
+
+                    // Gunsmith Part 14
+                    log("Adding HK 416A5 Parts to Gunsmith Part 14...");
+                    const setupGunsmithP14 = quests[IDS.GunsmithPart14].rewards.Started;
+					const newGP14P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP14P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP14P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP14P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP14P5Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP14P6Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP14P7Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP14P8Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP14P9Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP14.push(newGP14P1Reward);
+					setupGunsmithP14.push(newGP14P2Reward);
+					setupGunsmithP14.push(newGP14P3Reward);
+					setupGunsmithP14.push(newGP14P4Reward);
+					setupGunsmithP14.push(newGP14P5Reward);
+					setupGunsmithP14.push(newGP14P6Reward);
+					setupGunsmithP14.push(newGP14P7Reward);
+					setupGunsmithP14.push(newGP14P8Reward);
+					setupGunsmithP14.push(newGP14P9Reward);
+
+                    // Gunsmith Part 15
+                    log("Adding AS VAL Parts to Gunsmith Part 15...");
+                    const setupGunsmithP15 = quests[IDS.GunsmithPart15].rewards.Started;
+					const newGP15P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP15P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP15P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP15.push(newGP15P1Reward);
+					setupGunsmithP15.push(newGP15P2Reward);
+					setupGunsmithP15.push(newGP15P3Reward);
+
+                    // Gunsmith Part 17
+                    log("Adding AK-102 Parts to Gunsmith Part 17...");
+                    const setupGunsmithP17 = quests[IDS.GunsmithPart17].rewards.Started;
+					const newGP17P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP17P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP17P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP17P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP17P5Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP17P6Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP17.push(newGP17P1Reward);
+					setupGunsmithP17.push(newGP17P2Reward);
+					setupGunsmithP17.push(newGP17P3Reward);
+					setupGunsmithP17.push(newGP17P4Reward);
+					setupGunsmithP17.push(newGP17P5Reward);
+					setupGunsmithP17.push(newGP17P6Reward);
+
+                    // Gunsmith Part 18
+                    log("Adding AKMN Parts to Gunsmith Part 18...");
+                    const setupGunsmithP18 = quests[IDS.GunsmithPart18].rewards.Started;
+					const newGP18P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP18P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP18P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP18P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP18.push(newGP18P1Reward);
+					setupGunsmithP18.push(newGP18P2Reward);
+					setupGunsmithP18.push(newGP18P3Reward);
+					setupGunsmithP18.push(newGP18P4Reward);
+
+                    // Gunsmith Part 19
+                    log("Adding SVDS Parts to Gunsmith Part 19...");
+                    const setupGunsmithP19 = quests[IDS.GunsmithPart19].rewards.Started;
+					const newGP19P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP19P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP19P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP19P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP19.push(newGP19P1Reward);
+					setupGunsmithP19.push(newGP19P2Reward);
+					setupGunsmithP19.push(newGP19P3Reward);
+					setupGunsmithP19.push(newGP19P4Reward);
+
+                    // Gunsmith Part 20
+                    log("Adding M1A Parts to Gunsmith Part 20...");
+                    const setupGunsmithP20 = quests[IDS.GunsmithPart20].rewards.Started;
+					const newGP20P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP20P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP20P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP20P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP20P5Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP20.push(newGP20P1Reward);
+					setupGunsmithP20.push(newGP20P2Reward);
+					setupGunsmithP20.push(newGP20P3Reward);
+					setupGunsmithP20.push(newGP20P4Reward);
+					setupGunsmithP20.push(newGP20P5Reward);
+
+                    // Gunsmith Part 21
+                    log("Adding M700 & M1911 Parts to Gunsmith Part 21...");
+                    const setupGunsmithP21 = quests[IDS.GunsmithPart21].rewards.Started;
+                    const setupGunsmithP21M1911 = quests[IDS.GunsmithPart21].rewards.Started;
+					const newGP21P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 2,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP21P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 2,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP21P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 2,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP21M1P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 3,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP21M1P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 3,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP21M1P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 3,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP21M1P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 3,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP21.push(newGP21P1Reward);
+					setupGunsmithP21.push(newGP21P2Reward);
+					setupGunsmithP21.push(newGP21P3Reward);
+					setupGunsmithP21M1911.push(newGP21M1P1Reward);
+					setupGunsmithP21M1911.push(newGP21M1P2Reward);
+					setupGunsmithP21M1911.push(newGP21M1P3Reward);
+					setupGunsmithP21M1911.push(newGP21M1P4Reward);
+
+                    // Gunsmith Part 22
+                    log("Adding M4A1 Parts to Gunsmith Part 22...");
+                    const setupGunsmithP22 = quests[IDS.GunsmithPart22].rewards.Started;
+					const newGP22P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP22P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP22P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP22P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP22P5Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP22P6Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP22P7Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP22P8Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP22.push(newGP22P1Reward);
+					setupGunsmithP22.push(newGP22P2Reward);
+					setupGunsmithP22.push(newGP22P3Reward);
+					setupGunsmithP22.push(newGP22P4Reward);
+					setupGunsmithP22.push(newGP22P5Reward);
+					setupGunsmithP22.push(newGP22P6Reward);
+					setupGunsmithP22.push(newGP22P7Reward);
+					setupGunsmithP22.push(newGP22P8Reward);
+
+                    // Gunsmith Part 23
+                    log("Adding CMMG Mk47 Mutant Parts to Gunsmith Part 23...");
+                    const setupGunsmithP23 = quests[IDS.GunsmithPart23].rewards.Started;
+					const newGP23P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP23P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP23P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP23P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP23P5Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP23P6Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP23.push(newGP23P1Reward);
+					setupGunsmithP23.push(newGP23P2Reward);
+					setupGunsmithP23.push(newGP23P3Reward);
+					setupGunsmithP23.push(newGP23P4Reward);
+					setupGunsmithP23.push(newGP23P5Reward);
+					setupGunsmithP23.push(newGP23P6Reward);
+
+                    // Gunsmith Part 24
+                    log("Adding KAC SR-25 Parts to Gunsmith Part 24...");
+                    const setupGunsmithP24 = quests[IDS.GunsmithPart24].rewards.Started;
+					const newGP24P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP24P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP24P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP24P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP24P5Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP24P6Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP24P7Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP24P8Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP24P9Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP24P10Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP24.push(newGP24P1Reward);
+					setupGunsmithP24.push(newGP24P2Reward);
+					setupGunsmithP24.push(newGP24P3Reward);
+					setupGunsmithP24.push(newGP24P4Reward);
+					setupGunsmithP24.push(newGP24P5Reward);
+					setupGunsmithP24.push(newGP24P6Reward);
+					setupGunsmithP24.push(newGP24P7Reward);
+					setupGunsmithP24.push(newGP24P8Reward);
+					setupGunsmithP24.push(newGP24P9Reward);
+					setupGunsmithP24.push(newGP24P10Reward);
+
+					// Gunsmith Part 25
+                    log("Adding PKP machine gun Parts to Gunsmith Part 25...");
+                    const setupGunsmithP25 = quests[IDS.GunsmithPart25].rewards.Started;
+					const newGP25P1Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP25P2Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP25P3Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP25P4Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP25P5Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP25P6Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP25P7Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP25P8Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP25P9Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP25P10Reward = {
+						"findInRaid": true,
+						"id": "Generate",
+						"index": 1,
+						"items": [
+							{
+								"_id": "",
+								"_tpl": "", // 
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					setupGunsmithP25.push(newGP25P1Reward);
+					setupGunsmithP25.push(newGP25P2Reward);
+					setupGunsmithP25.push(newGP25P3Reward);
+					setupGunsmithP25.push(newGP25P4Reward);
+					setupGunsmithP25.push(newGP25P5Reward);
+					setupGunsmithP25.push(newGP25P6Reward);
+					setupGunsmithP25.push(newGP25P7Reward);
+					setupGunsmithP25.push(newGP25P8Reward);
+					setupGunsmithP25.push(newGP25P9Reward);
+					setupGunsmithP25.push(newGP25P10Reward);
                 }
         }
     }
