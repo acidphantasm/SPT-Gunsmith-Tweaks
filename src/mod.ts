@@ -4387,7 +4387,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750934d7f9908e32161b2f9",
-								"_tpl": "", // 
+								"_tpl": "6491c6f6ef312a876705191b", // PK Zenit B-50 handguard
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4405,7 +4405,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675093557f4e63abdee53c59",
-								"_tpl": "", // 
+								"_tpl": "646371faf2404ab67905c8e9", // PKM 7.62x54R 658mm barrel
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4423,7 +4423,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750935cac2e61b901ecb945",
-								"_tpl": "", // 
+								"_tpl": "6492ef63cfcf7c89e701abf1", // PK Zenit DTK-1P 7.62x54R muzzle brake
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4441,7 +4441,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675093641d96c2764dfbc625",
-								"_tpl": "", // 
+								"_tpl": "6492d7847363b8a52206bc52", // PK Zenit PT-2 "Klassika" stock
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4459,7 +4459,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750936b073a57cd64097bfb",
-								"_tpl": "", // 
+								"_tpl": "5649ad3f4bdc2df8348b4585", // AK bakelite pistol grip (6P1 Sb.8V)
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4477,7 +4477,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509372b5a1e85e1bf0d100",
-								"_tpl": "", // 
+								"_tpl": "5a0c59791526d8dba737bba7", // AK GP-25 accessory kit recoil pad
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4495,7 +4495,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750937a8c07122db1cc146b",
-								"_tpl": "", // 
+								"_tpl": "5cf638cbd7f00c06595bc936", // NPZ USP-1 "Tyulpan" 4x scope
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4513,7 +4513,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509382adac582c8bae3843",
-								"_tpl": "", // 
+								"_tpl": "5cc9c20cd7f00c001336c65d", // NcSTAR Tactical blue laser LAM-module
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4531,7 +4531,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509389fb51235b74970e2c",
-								"_tpl": "", // 
+								"_tpl": "5947f92f86f77427344a76b1", // AK TAPCO SAW-Style pistol grip (Black)
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4549,7 +4549,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509390365bb819f65bcfe9",
-								"_tpl": "", // 
+								"_tpl": "5cf639aad7f00c065703d455", // NPZ USP-1 scope eyecup
 								"upd": {
 									"StackObjectsCount": 1
 								}
