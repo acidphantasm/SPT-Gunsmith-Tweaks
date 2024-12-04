@@ -3602,7 +3602,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091fd3b6e0ea6df29bdba",
-								"_tpl": "", // 
+								"_tpl": "6197b229af1f5202c57a9bea", // SVDS Lynx Arms Hinge buffer tube adapter
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3620,7 +3620,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750920514b1a8fee1c9ca45",
-								"_tpl": "", // 
+								"_tpl": "5dfce88fe9dc277128008b2e", // SVDS custom cut dust cover
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3638,7 +3638,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750920c4fffabd8f941a00c",
-								"_tpl": "", // 
+								"_tpl": "5e01e9e273d8eb11426f5bc3", // SVDS Rotor 43 thread adapter
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3656,7 +3656,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509213ead8feddb5807c63",
-								"_tpl": "", // 
+								"_tpl": "6516b129609aaf354b34b3a8", // SVDS Lynx Arms AK-series pistol grip adapter
 								"upd": {
 									"StackObjectsCount": 1
 								}
