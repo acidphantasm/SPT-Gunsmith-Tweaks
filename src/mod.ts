@@ -2559,8 +2559,8 @@ class Mod implements IPostDBLoadMod {
 					setupGunsmithP6.push(newGP6P4Reward);
                     //// Gunsmith Part 7
                     //log("Adding M4A1 Parts to Gunsmith Part 7...");
-                    //const setupGunsmith7 = quests[IDS.GunsmithPart7].rewards.Started;
-					//const newGP7Reward = {
+                    //const setupGunsmithP7 = quests[IDS.GunsmithPart7].rewards.Started;
+					//const newGP7P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2578,11 +2578,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith7.push(newGP7Reward);
+					//setupGunsmithP7.push(newGP7P1Reward);
                     //// Gunsmith Part 8
                     //log("Adding AKS-74N Parts to Gunsmith Part 8...");
-                    //const setupGunsmith8 = quests[IDS.GunsmithPart8].rewards.Started;
-					//const newGP8Reward = {
+                    //const setupGunsmithP8 = quests[IDS.GunsmithPart8].rewards.Started;
+					//const newGP8P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2600,11 +2600,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith8.push(newGP8Reward);
+					//setupGunsmithP8.push(newGP8P1Reward);
                     //// Gunsmith Part 9
                     //log("Adding P226R Parts to Gunsmith Part 9...");
-                    //const setupGunsmith9 = quests[IDS.GunsmithPart9].rewards.Started;
-					//const newGP9Reward = {
+                    //const setupGunsmithP9 = quests[IDS.GunsmithPart9].rewards.Started;
+					//const newGP9P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2622,11 +2622,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith9.push(newGP9Reward);
+					//setupGunsmithP9.push(newGP9P1Reward);
                     //// Gunsmith Part 10
                     //log("Adding AK-105 Parts to Gunsmith Part 10...");
-                    //const setupGunsmith10 = quests[IDS.GunsmithPart10].rewards.Started;
-					//const newGP10Reward = {
+                    //const setupGunsmithP10 = quests[IDS.GunsmithPart10].rewards.Started;
+					//const newGP10P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2644,11 +2644,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith10.push(newGP10Reward);
+					//setupGunsmithP10.push(newGP10P1Reward);
                     //// Gunsmith Part 11
                     //log("Adding KRISS Vector 9x19 Parts to Gunsmith Part 11...");
-                    //const setupGunsmith11 = quests[IDS.GunsmithPart11].rewards.Started;
-					//const newGP11Reward = {
+                    //const setupGunsmithP11 = quests[IDS.GunsmithPart11].rewards.Started;
+					//const newGP11P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2666,11 +2666,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith11.push(newGP11Reward);
+					//setupGunsmithP11.push(newGP11P1Reward);
                     //// Gunsmith Part 12
                     //log("Adding SIG MPX Parts to Gunsmith Part 12...");
-                    //const setupGunsmith12 = quests[IDS.GunsmithPart12].rewards.Started;
-					//const newGP12Reward = {
+                    //const setupGunsmithP12 = quests[IDS.GunsmithPart12].rewards.Started;
+					//const newGP12P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2688,11 +2688,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith12.push(newGP12Reward);
+					//setupGunsmithP12.push(newGP12P1Reward);
                     //// Gunsmith Part 13
                     //log("Adding R11 RSASS Parts to Gunsmith Part 13...");
-                    //const setupGunsmith13 = quests[IDS.GunsmithPart13].rewards.Started;
-					//const newGP13Reward = {
+                    //const setupGunsmithP13 = quests[IDS.GunsmithPart13].rewards.Started;
+					//const newGP13P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2710,11 +2710,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith13.push(newGP13Reward);
+					//setupGunsmithP13.push(newGP13P1Reward);
                     //// Gunsmith Part 14
                     //log("Adding HK 416A5 Parts to Gunsmith Part 14...");
-                    //const setupGunsmith14 = quests[IDS.GunsmithPart14].rewards.Started;
-					//const newGP14Reward = {
+                    //const setupGunsmithP14 = quests[IDS.GunsmithPart14].rewards.Started;
+					//const newGP14P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2732,11 +2732,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith14.push(newGP14Reward);
+					//setupGunsmithP14.push(newGP14P1Reward);
                     //// Gunsmith Part 15
                     //log("Adding AS VAL Parts to Gunsmith Part 15...");
-                    //const setupGunsmith15 = quests[IDS.GunsmithPart15].rewards.Started;
-					//const newGP15Reward = {
+                    //const setupGunsmithP15 = quests[IDS.GunsmithPart15].rewards.Started;
+					//const newGP15P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2754,11 +2754,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith15.push(newGP15Reward);
+					//setupGunsmithP15.push(newGP15P1Reward);
                     //// Gunsmith Part 16
                     //log("Adding DVL-10 Parts to Gunsmith Part 16...");
-                    //const setupGunsmith16 = quests[IDS.GunsmithPart16].rewards.Started;
-					//const newGP16Reward = {
+                    //const setupGunsmithP16 = quests[IDS.GunsmithPart16].rewards.Started;
+					//const newGP16P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2776,11 +2776,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith16.push(newGP16Reward);
+					//setupGunsmithP16.push(newGP16P1Reward);
                     //// Gunsmith Part 17
                     //log("Adding AK-102 Parts to Gunsmith Part 17...");
-                    //const setupGunsmith17 = quests[IDS.GunsmithPart17].rewards.Started;
-					//const newGP17Reward = {
+                    //const setupGunsmithP17 = quests[IDS.GunsmithPart17].rewards.Started;
+					//const newGP17P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2798,11 +2798,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith17.push(newGP17Reward);
+					//setupGunsmithP17.push(newGP17P1Reward);
                     //// Gunsmith Part 18
                     //log("Adding AKMN Parts to Gunsmith Part 18...");
-                    //const setupGunsmith18 = quests[IDS.GunsmithPart18].rewards.Started;
-					//const newGP18Reward = {
+                    //const setupGunsmithP18 = quests[IDS.GunsmithPart18].rewards.Started;
+					//const newGP18P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2820,11 +2820,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith18.push(newGP18Reward);
+					//setupGunsmithP18.push(newGP18P1Reward);
                     //// Gunsmith Part 19
                     //log("Adding SVDS Parts to Gunsmith Part 19...");
-                    //const setupGunsmith19 = quests[IDS.GunsmithPart19].rewards.Started;
-					//const newGP19Reward = {
+                    //const setupGunsmithP19 = quests[IDS.GunsmithPart19].rewards.Started;
+					//const newGP19P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2842,11 +2842,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith19.push(newGP19Reward);
+					//setupGunsmithP19.push(newGP19P1Reward);
                     //// Gunsmith Part 20
                     //log("Adding M1A Parts to Gunsmith Part 20...");
-                    //const setupGunsmith20 = quests[IDS.GunsmithPart20].rewards.Started;
-					//const newGP20Reward = {
+                    //const setupGunsmithP20 = quests[IDS.GunsmithPart20].rewards.Started;
+					//const newGP20P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2864,12 +2864,12 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith20.push(newGP20Reward);
+					//setupGunsmithP20.push(newGP20P1Reward);
                     //// Gunsmith Part 21
                     //log("Adding M700 & M1911 Parts to Gunsmith Part 21...");
-                    //const setupGunsmith21 = quests[IDS.GunsmithPart21].rewards.Started;
-                    //const setupGunsmith21M1911 = quests[IDS.GunsmithPart21].rewards.Started;
-					//const newGP21Reward = {
+                    //const setupGunsmithP21 = quests[IDS.GunsmithPart21].rewards.Started;
+                    //const setupGunsmithP21M1911 = quests[IDS.GunsmithPart21].rewards.Started;
+					//const newGP21P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 2,
@@ -2887,7 +2887,7 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//const newGP21M1Reward = {
+					//const newGP21M1P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 3,
@@ -2905,12 +2905,12 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith21.push(newGP21Reward);
-					//setupGunsmith21M1911.push(newGP21M1Reward);
+					//setupGunsmithP21.push(newGP21P1Reward);
+					//setupGunsmithP21M1911.push(newGP21M1P1Reward);
                     //// Gunsmith Part 22
                     //log("Adding M4A1 Parts to Gunsmith Part 22...");
-                    //const setupGunsmith22 = quests[IDS.GunsmithPart22].rewards.Started;
-					//const newGP22Reward = {
+                    //const setupGunsmithP22 = quests[IDS.GunsmithPart22].rewards.Started;
+					//const newGP22P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2928,11 +2928,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith22.push(newGP22Reward);
+					//setupGunsmithP22.push(newGP22P1Reward);
                     //// Gunsmith Part 23
                     //log("Adding CMMG Mk47 Mutant Parts to Gunsmith Part 23...");
-                    //const setupGunsmith23 = quests[IDS.GunsmithPart23].rewards.Started;
-					//const newGP23Reward = {
+                    //const setupGunsmithP23 = quests[IDS.GunsmithPart23].rewards.Started;
+					//const newGP23P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2950,11 +2950,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith23.push(newGP23Reward);
+					//setupGunsmithP23.push(newGP23P1Reward);
                     //// Gunsmith Part 24
                     //log("Adding KAC SR-25 Parts to Gunsmith Part 24...");
-                    //const setupGunsmith24 = quests[IDS.GunsmithPart24].rewards.Started;
-					//const newGP24Reward = {
+                    //const setupGunsmithP24 = quests[IDS.GunsmithPart24].rewards.Started;
+					//const newGP24P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2972,11 +2972,11 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith24.push(newGP24Reward);
+					//setupGunsmithP24.push(newGP24P1Reward);
 					//// Gunsmith Part 25
                     //log("Adding PKP machine gun Parts to Gunsmith Part 25...");
-                    //const setupGunsmith25 = quests[IDS.GunsmithPart25].rewards.Started;
-					//const newGP25Reward = {
+                    //const setupGunsmithP25 = quests[IDS.GunsmithPart25].rewards.Started;
+					//const newGP25P1Reward = {
 					//	"findInRaid": true,
 					//	"id": "Generate",
 					//	"index": 1,
@@ -2994,7 +2994,7 @@ class Mod implements IPostDBLoadMod {
 					//	"unknown": false,
 					//	"value": 1
 					//}
-					//setupGunsmith25.push(newGP25Reward);
+					//setupGunsmithP25.push(newGP25P1Reward);
                 }
         }
     }
