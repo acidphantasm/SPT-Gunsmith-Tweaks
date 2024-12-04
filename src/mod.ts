@@ -2669,7 +2669,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509050a1a5d11cd1521fa7",
-								"_tpl": "", // 
+								"_tpl": "59ecc28286f7746d7a68aa8c", // AKS-74/AKS-74U Zenit PT Lock
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2687,7 +2687,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750905cdcf1bf4e1d8c9bb5",
-								"_tpl": "", // 
+								"_tpl": "5c1bc4812e22164bef5cfde7", // Zenit RK-0 tactical foregrip
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2705,7 +2705,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509064c0052d3c6d59ce95",
-								"_tpl": "", // 
+								"_tpl": "5bed61680db834001d2c45ab", // AK-12 5.45x39 30-round magazine
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2723,7 +2723,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750906b0ba6847d69d74f07",
-								"_tpl": "", // 
+								"_tpl": "5a5f1ce64f39f90b401987bc", // Zenit Klesch-2IKS IR illuminator with laser
 								"upd": {
 									"StackObjectsCount": 1
 								}
