@@ -3046,7 +3046,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750910240735a2e9baf0278",
-								"_tpl": "", // 
+								"_tpl": "64806bdd26c80811d408d37a", // RTM Osovets P-2 tactical foregrip
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3064,7 +3064,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750910f81cd06a3999f1db7",
-								"_tpl": "", // 
+								"_tpl": "5b07dd285acfc4001754240d", // Steiner LAS/TAC 2 tactical flashlight
 								"upd": {
 									"StackObjectsCount": 1
 								}
