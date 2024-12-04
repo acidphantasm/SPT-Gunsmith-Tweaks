@@ -3682,7 +3682,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750921c10a0a0db1a2527fb",
-								"_tpl": "", // 
+								"_tpl": "5aaf8a0be5b5b00015693243", // M1A 7.62x51 20-round magazine
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3700,7 +3700,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750922785db1f93a56367ca",
-								"_tpl": "", // 
+								"_tpl": "58d399e486f77442e0016fe7", // Aimpoint Micro T-1 reflex sight
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3718,7 +3718,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750922e2882a267d7485961",
-								"_tpl": "", // 
+								"_tpl": "58d39d3d86f77445bb794ae7", // Aimpoint Micro Standard Mount
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3736,7 +3736,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509234b87d50d395934717",
-								"_tpl": "", // 
+								"_tpl": "57fd23e32459772d0805bcf1", // Holosun LS321 Tactical device
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3754,7 +3754,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750923c121b03b798a43e04",
-								"_tpl": "", // 
+								"_tpl": "5addbfef5acfc400185c2857", // M14 Leapers UTG 4-Point Locking Deluxe mount
 								"upd": {
 									"StackObjectsCount": 1
 								}
