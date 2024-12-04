@@ -28,7 +28,7 @@ export const IDS = {
     GunsmithPart14: "639872fe8871e1272b10ccf6", // Gunsmith Part 14 - GUN: HK 416A5 - Parts: 9
     GunsmithPart15: "5ae3280386f7742a41359364", // Gunsmith Part 15 - GUN: AS VAL - Parts: 3
     GunsmithPart16: "5ac242ab86f77412464f68b4", // Gunsmith Part 16 - GUN: DVL-10
-    GunsmithPart17: "5b47749f86f7746c5d6a5fd4", // Gunsmith Part 17 - GUN: AK-102 - Parts: 6
+    GunsmithPart17: "5b47749f86f7746c5d6a5fd4", // Gunsmith Part 17 - GUN: AK-102 - Parts: 7
     GunsmithPart18: "5b477b6f86f7747290681823", // Gunsmith Part 18 - GUN: AKMN - Parts: 4
     GunsmithPart19: "639873003693c63d86328f25", // Gunsmith Part 19 - GUN: SVDS - Parts: 4
     GunsmithPart20: "5b477f7686f7744d1b23c4d2", // Gunsmith Part 20 - GUN: M1A - Parts: 5
@@ -3385,7 +3385,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091a69ad43771b4de7c36",
-								"_tpl": "", // 
+								"_tpl": "5947f92f86f77427344a76b1", // AK TAPCO SAW-Style pistol grip (Black)
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3403,7 +3403,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091afd5dba995699fcea8",
-								"_tpl": "", // 
+								"_tpl": "5fbbaa86f9986c4cff3fe5f6", // AR-15 KRISS Defiance DS150 stock (Black)
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3421,7 +3421,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091b79b1d017bbfa25daa",
-								"_tpl": "", // 
+								"_tpl": "588226ef24597767af46e39c", // Magpul AFG tactical foregrip (Olive Drab)
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3439,7 +3439,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091bed73fb7886a6845a1",
-								"_tpl": "", // 
+								"_tpl": "5b3a337e5acfc4704b4a19a0", // Zenit Klesch-2U tactical flashlight
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3457,7 +3457,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091c5996daf04ab1d2a73",
-								"_tpl": "", // 
+								"_tpl": "5c0548ae0db834001966a3c2", // SLR-106/AK 5.56x45 Circle 10 30-round magazine
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3475,7 +3475,25 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091cc6c4c1389785e781f",
-								"_tpl": "", // 
+								"_tpl": "6130ca3fd92c473c77020dbd", // AK CSS knurled charging handle
+								"upd": {
+									"StackObjectsCount": 1
+								}
+							}
+						],
+						"target": "675091cc6c4c1389785e781f",
+						"type": QuestRewardType.ITEM,
+						"unknown": false,
+						"value": 1
+					}
+					const newGP17P7Reward = {
+						"findInRaid": true,
+						"id": "675091c9fab19813c45df981",
+						"index": 1,
+						"items": [
+							{
+								"_id": "675091cc6c4c1389785e781f",
+								"_tpl": "5649af884bdc2d1b2b8b4589", // AK Zenit B-33 dust cover
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3492,6 +3510,7 @@ class Mod implements IPostDBLoadMod {
 					setupGunsmithP17.push(newGP17P4Reward);
 					setupGunsmithP17.push(newGP17P5Reward);
 					setupGunsmithP17.push(newGP17P6Reward);
+					setupGunsmithP17.push(newGP17P7Reward);
 
                     // Gunsmith Part 18
                     log("Adding AKMN Parts to Gunsmith Part 18...");
