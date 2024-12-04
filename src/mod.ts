@@ -2749,7 +2749,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090742f149c5818fe84b5",
-								"_tpl": "", // 
+								"_tpl": "5c920e902e221644f31c3c99", // P226 9x19 20-round extended magazine
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2767,7 +2767,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750907c1211cd8fbc492d1a",
-								"_tpl": "", // 
+								"_tpl": "5cc9c20cd7f00c001336c65d", // NcSTAR Tactical blue laser LAM-module
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2785,7 +2785,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750908493e0e1098552bab1",
-								"_tpl": "", // 
+								"_tpl": "5c6beec32e221601da3578f2", // P226 TJ's Custom 9x19 compensator
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2803,7 +2803,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750908de75a42ae567a1a3e",
-								"_tpl": "", // 
+								"_tpl": "587de4282459771bca0ec90b", // P226 9x19 threaded barrel
 								"upd": {
 									"StackObjectsCount": 1
 								}
