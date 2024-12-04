@@ -3522,7 +3522,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091dac1d51950a9cede00",
-								"_tpl": "", // 
+								"_tpl": "5b0e794b5acfc47a877359b2", // AKM/AK-74 Magpul Zhukov-S stock
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3540,7 +3540,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091e24b3bb75ffebd8a57",
-								"_tpl": "", // 
+								"_tpl": "59d6272486f77466146386ff", // AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3558,7 +3558,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091ea49c9bc35e8a78828",
-								"_tpl": "", // 
+								"_tpl": "5a9fbacda2750c00141e080f", // Rotor 43 7.62 Sound Suppressor (Labeled as Rotor 43 7.62x39 muzzle break-compensator)
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3576,7 +3576,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091f3ae49f1fbad5a824f",
-								"_tpl": "", // 
+								"_tpl": "5d2c76ed48f03532f2136169", // AK AKademia Bastion dust cover
 								"upd": {
 									"StackObjectsCount": 1
 								}
