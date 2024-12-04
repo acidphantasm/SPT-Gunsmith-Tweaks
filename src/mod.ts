@@ -2570,7 +2570,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509001c3393929d741c013",
-								"_tpl": "", // 
+								"_tpl": "59db7e1086f77448be30ddf3", // Trijicon ACOG TA11D 3.5x35 scope
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2588,7 +2588,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509009ae16fe9d0d7c2d13",
-								"_tpl": "", // 
+								"_tpl": "5c78f2792e221600106f4683", // AR-15 Magpul MOE SL carbine length M-LOK handguard
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2606,7 +2606,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750901220fd8205771499bf",
-								"_tpl": "", // 
+								"_tpl": "55d35ee94bdc2d61338b4568", // AR-15 5.56x45 260mm barrel
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2624,7 +2624,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750901cc4dc688d03d58c50",
-								"_tpl": "", // 
+								"_tpl": "56ea8d2fd2720b7c698b4570", // AR-15 Windham Weaponry Rail Gas Block
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2642,7 +2642,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750904855eb7c41229802b7",
-								"_tpl": "", // 
+								"_tpl": "651a8bf3a8520e48047bf708", // Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)
 								"upd": {
 									"StackObjectsCount": 1
 								}
