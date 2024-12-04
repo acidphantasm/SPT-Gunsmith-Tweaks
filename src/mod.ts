@@ -3782,7 +3782,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509246f8e8dabe87367f98",
-								"_tpl": "", // 
+								"_tpl": "5a339805c4a2826c6e06d73d", // AR-15 Magpul MIAD pistol grip (FDE)
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3800,7 +3800,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750924d004d9ea6a72e5283",
-								"_tpl": "", // 
+								"_tpl": "5649be884bdc2d79388b4577", // AR-15 Colt Carbine buffer tube
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3818,7 +3818,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509256ac7e1840344fedb3",
-								"_tpl": "", // 
+								"_tpl": "5fbbaa86f9986c4cff3fe5f6", // AR-15 KRISS Defiance DS150 stock (Black)
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3836,7 +3836,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750925e0f5066d3bf875aec",
-								"_tpl": "", // 
+								"_tpl": "5ef366938cef260c0642acad", // M1911 Pachmayr American Legend Grip #423
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3854,7 +3854,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750926c9a3c3e8700b128c2",
-								"_tpl": "", // 
+								"_tpl": "5ef61964ec7f42238c31e0c1", // M1911 Anarchy Outdoors .45 ACP muzzle brake
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3872,7 +3872,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750927529c9da993301531e",
-								"_tpl": "", // 
+								"_tpl": "5ef369b08cef260c0642acaf", // M1911A1 NcSTAR trigger guard mount
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3890,7 +3890,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750927c4dacee3fb43b83ea",
-								"_tpl": "", // 
+								"_tpl": "5cc9c20cd7f00c001336c65d", // NcSTAR Tactical blue laser LAM-module
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3919,7 +3919,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092859e7b9552789b1663",
-								"_tpl": "", // 
+								"_tpl": "5b30bc285acfc47a8608615d", // Alexander Arms 10 inch rail
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3937,7 +3937,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750928e70bd242a0e07ebc1",
-								"_tpl": "", // 
+								"_tpl": "64806bdd26c80811d408d37a", // RTM Osovets P-2 tactical foregrip
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3955,7 +3955,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509298d6d2c4afffa2c19f",
-								"_tpl": "", // 
+								"_tpl": "5b2cfa535acfc432ff4db7a0", // AR-15 Alexander Arms MK10 rifle length handguard
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3973,7 +3973,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092a09f2972010db11abc",
-								"_tpl": "", // 
+								"_tpl": "59db3a1d86f77429e05b4e92", // AR-15 Naroh Arms GRAL-S pistol grip
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3991,7 +3991,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092a871d1d95fa5574d20",
-								"_tpl": "", // 
+								"_tpl": "55d35ee94bdc2d61338b4568", // AR-15 5.56x45 260mm barrel
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4009,7 +4009,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092b0a80b97875ddff1ca",
-								"_tpl": "", // 
+								"_tpl": "56ea8180d2720bf2698b456a", // AR-15 KAC QDC 5.56x45 Flash Suppressor Kit
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4027,7 +4027,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092b6215fcb05d7f90a22",
-								"_tpl": "", // 
+								"_tpl": "56eabcd4d2720b66698b4574", // AR-15 Daniel Defense MK12 Low Profile Gas Block
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4045,7 +4045,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092bedac30450033ee21a",
-								"_tpl": "", // 
+								"_tpl": "591aef7986f774139d495f03", // AR-15 TROY M7A1 PDW stock (Black)
 								"upd": {
 									"StackObjectsCount": 1
 								}
