@@ -3149,7 +3149,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509135ea1cd3788be0d8aa",
-								"_tpl": "", // 
+								"_tpl": "55d4887d4bdc2d962f8b4570", // 5.56x45 Colt AR-15 STANAG 30-round magazine
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3167,7 +3167,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750913d91f4ec2622361c61",
-								"_tpl": "", // 
+								"_tpl": "5c6d10fa2e221600106f3f23", // HK 416A5 Midwest Industries 9 inch M-LOK handguard
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3185,7 +3185,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509146d90256e24fab10e8",
-								"_tpl": "", // 
+								"_tpl": "6269220d70b6c02e665f2635", // Magpul M-LOK Cantilever Mount
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3203,7 +3203,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750914f6b833a0afc294bb0",
-								"_tpl": "", // 
+								"_tpl": "5bb20d92d4351e00853263eb", // HK 416A5 5.56x45 11 inch barrel
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3221,7 +3221,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091580b6795407710a277",
-								"_tpl": "", // 
+								"_tpl": "5c7fb51d2e2216001219ce11", // AR-15 SureFire SF3P 5.56x45 Flash hider
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3239,7 +3239,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750916026c5fde13b362007",
-								"_tpl": "", // 
+								"_tpl": "5b7be4895acfc400170e2dd5", // Magpul M-LOK 4.1 inch rail
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3257,7 +3257,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750916a7ef9822583f1b730",
-								"_tpl": "", // 
+								"_tpl": "5c06595c0db834001a66af6c", // LA-5B/PEQ tactical device
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3275,7 +3275,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675091721efcda1f398971a5",
-								"_tpl": "", // 
+								"_tpl": "5bc09a18d4351e003562b68e", // Magpul MBUS Gen2 flip-up rear sight
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -3293,7 +3293,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "6750917a97c5afa70cb9337f",
-								"_tpl": "", // 
+								"_tpl": "5bc09a30d4351e00367fb7c8", // Magpul MBUS Gen2 flip-up front sight
 								"upd": {
 									"StackObjectsCount": 1
 								}
