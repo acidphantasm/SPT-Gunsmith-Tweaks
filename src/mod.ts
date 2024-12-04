@@ -2829,7 +2829,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "67509097c39a942bca18bbe3",
-								"_tpl": "", // 
+								"_tpl": "5cbda392ae92155f3c17c39f", // AK 100-series polymer handguard
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2847,7 +2847,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090a445a93e057eaaff81",
-								"_tpl": "", // 
+								"_tpl": "5c87ca002e221600114cb150", // KAC vertical foregrip
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2865,7 +2865,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090ad4124db0e7a975530",
-								"_tpl": "", // 
+								"_tpl": "5d2c76ed48f03532f2136169", // AK AKademia Bastion dust cover
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2883,7 +2883,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090b9c36c4cf0892bb8b1",
-								"_tpl": "", // 
+								"_tpl": "5947f92f86f77427344a76b1", // AK TAPCO SAW-Style pistol grip (Black)
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2901,7 +2901,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090c10360553b83ea0805",
-								"_tpl": "", // 
+								"_tpl": "5ac78eaf5acfc4001926317a", // AK-74M/AK-100 Zenit PT Lock
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -2919,7 +2919,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675090ca4aa0669556f637c9",
-								"_tpl": "", // 
+								"_tpl": "5b222d405acfc400153af4fe", // AK Zenit PT-1 "Klassika" stock
 								"upd": {
 									"StackObjectsCount": 1
 								}
