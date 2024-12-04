@@ -4075,7 +4075,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092c6babe36b3e7473576",
-								"_tpl": "", // 
+								"_tpl": "5bbdb8bdd4351e4502011460", // AR-10 Odin Works ATLAS-7 7.62x51 muzzle brake
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4093,7 +4093,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092cd2a9c49f2814cb7a0",
-								"_tpl": "", // 
+								"_tpl": "5f6340d3ca442212f4047eb2", // Tactical Dynamics Skeletonized Foregrip
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4111,7 +4111,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092d46ce3306f6eda8103",
-								"_tpl": "", // 
+								"_tpl": "5a800961159bd4315e3a1657", // Glock GTL 21 tactical flashlight with laser
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4129,7 +4129,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092dc937210903d910d6b",
-								"_tpl": "", // 
+								"_tpl": "59f9d81586f7744c7506ee62", // Vortex Razor AMG UH-1 holographic sight
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4147,7 +4147,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092e294e8bbdc928f8e38",
-								"_tpl": "", // 
+								"_tpl": "5c87a07c2e2216001219d4a2", // AR-15 HK E1 buttstock
 								"upd": {
 									"StackObjectsCount": 1
 								}
@@ -4165,7 +4165,7 @@ class Mod implements IPostDBLoadMod {
 						"items": [
 							{
 								"_id": "675092e965a27723a98f2b6c",
-								"_tpl": "", // 
+								"_tpl": "6113cce3d92c473c770200c7", // AR-15 F1 Firearms Skeletonized Style 2 pistol grip
 								"upd": {
 									"StackObjectsCount": 1
 								}
