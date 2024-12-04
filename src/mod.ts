@@ -2561,94 +2561,94 @@ class Mod implements IPostDBLoadMod {
 					setupGunsmithP6.push(newGP6P4Reward);
 
                     // Gunsmith Part 7
-                    log("Adding M4A1 Parts to Gunsmith Part 7..."); // START HERE
+                    log("Adding M4A1 Parts to Gunsmith Part 7...");
                     const setupGunsmithP7 = quests[IDS.GunsmithPart7].rewards.Started;
 					const newGP7P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67508ffdb9add1f7b640dd47",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509001c3393929d741c013",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509001c3393929d741c013",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP7P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509006f1fc4102327c754d",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509009ae16fe9d0d7c2d13",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509009ae16fe9d0d7c2d13",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP7P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750900f485d37a2811c72f1",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750901220fd8205771499bf",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750901220fd8205771499bf",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP7P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090197a945a692b583072",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750901cc4dc688d03d58c50",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750901cc4dc688d03d58c50",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP7P5Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509045dae21bc4ff8e02a4",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750904855eb7c41229802b7",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750904855eb7c41229802b7",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -2664,72 +2664,72 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP8 = quests[IDS.GunsmithPart8].rewards.Started;
 					const newGP8P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750904dd46003f3e73a1385",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509050a1a5d11cd1521fa7",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509050a1a5d11cd1521fa7",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP8P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509056c66228828fea81a7",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750905cdcf1bf4e1d8c9bb5",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750905cdcf1bf4e1d8c9bb5",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP8P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090613818835515d2aa4f",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509064c0052d3c6d59ce95",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509064c0052d3c6d59ce95",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP8P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750906903421d89148b017d",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750906b0ba6847d69d74f07",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750906b0ba6847d69d74f07",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -2744,72 +2744,72 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP9 = quests[IDS.GunsmithPart9].rewards.Started;
 					const newGP9P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509071f6bd0c21d2b90e69",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090742f149c5818fe84b5",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090742f149c5818fe84b5",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP9P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090794699d0bc552915a2",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750907c1211cd8fbc492d1a",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750907c1211cd8fbc492d1a",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP9P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090811470385d2b66ca5f",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750908493e0e1098552bab1",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750908493e0e1098552bab1",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP9P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750908a5df41774ae4422c6",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750908de75a42ae567a1a3e",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750908de75a42ae567a1a3e",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -2824,108 +2824,108 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP10 = quests[IDS.GunsmithPart10].rewards.Started;
 					const newGP10P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509093f1097198c6eb4d9f",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509097c39a942bca18bbe3",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509097c39a942bca18bbe3",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP10P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750909e4e2fce86297ac46d",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090a445a93e057eaaff81",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090a445a93e057eaaff81",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP10P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090aaf8bf9751fe38d4b1",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090ad4124db0e7a975530",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090ad4124db0e7a975530",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP10P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090b63f6461d21a729272",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090b9c36c4cf0892bb8b1",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090b9c36c4cf0892bb8b1",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP10P5Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090be6f1a9ffd4d8ac668",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090c10360553b83ea0805",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090c10360553b83ea0805",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP10P6Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090c787ca088b935acb0a",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090ca4aa0669556f637c9",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090ca4aa0669556f637c9",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -2942,90 +2942,90 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP11 = quests[IDS.GunsmithPart11].rewards.Started;
 					const newGP11P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090d293d47e5dbb88b77d",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090d5b8531502bd70f839",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090d5b8531502bd70f839",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP11P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090da839785858927f2db",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090df8774a580f25f9296",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090df8774a580f25f9296",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP11P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090e58da6bae371ac7dd7",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090e86ee51e4414b13c34",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090e86ee51e4414b13c34",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP11P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090ed33035d3302c6002f",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090f3810d5a4ef18b2761",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090f3810d5a4ef18b2761",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP11P5Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675090f898cc4c60862dbc0a",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675090fb3f9cd0d5a92982e5",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675090fb3f9cd0d5a92982e5",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -3041,36 +3041,36 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP12 = quests[IDS.GunsmithPart12].rewards.Started;
 					const newGP12P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509100093b6747e8b4c370",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750910240735a2e9baf0278",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750910240735a2e9baf0278",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP12P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750910c398e683d167b6ea9",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750910f81cd06a3999f1db7",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750910f81cd06a3999f1db7",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -3083,54 +3083,54 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP13 = quests[IDS.GunsmithPart13].rewards.Started;
 					const newGP13P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750911551384364fba6376d",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509118e5b69e8fb25746d2",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509118e5b69e8fb25746d2",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP13P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750911e665ebbfe7f19881d",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509122df6689a1aeb94705",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509122df6689a1aeb94705",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP13P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750912782f8428c658daaa7",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750912aae48fd5dcb8c378e",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750912aae48fd5dcb8c378e",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -3144,162 +3144,162 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP14 = quests[IDS.GunsmithPart14].rewards.Started;
 					const newGP14P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509130f2650b9c0e7689e4",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509135ea1cd3788be0d8aa",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509135ea1cd3788be0d8aa",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP14P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750913a6ca9944952de9956",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750913d91f4ec2622361c61",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750913d91f4ec2622361c61",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP14P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091436efec302daa680ac",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509146d90256e24fab10e8",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509146d90256e24fab10e8",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP14P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750914c30a6adca38353eb4",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750914f6b833a0afc294bb0",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750914f6b833a0afc294bb0",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP14P5Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091546051bdc0acfdba05",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091580b6795407710a277",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091580b6795407710a277",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP14P6Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750915df6130c67f8caeb42",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750916026c5fde13b362007",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750916026c5fde13b362007",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP14P7Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750916753e8eb89d3fa2d86",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750916a7ef9822583f1b730",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750916a7ef9822583f1b730",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP14P8Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509170069bb34ed94c2654",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091721efcda1f398971a5",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091721efcda1f398971a5",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP14P9Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509177557a9dc847a11f53",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750917a97c5afa70cb9337f",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750917a97c5afa70cb9337f",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -3319,54 +3319,54 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP15 = quests[IDS.GunsmithPart15].rewards.Started;
 					const newGP15P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509187e2b95d0f582b74d2",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750918ca9ced55f6ec85b60",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750918ca9ced55f6ec85b60",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP15P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091926d52c8831754f4ef",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509197b48bea78705f43de",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509197b48bea78705f43de",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP15P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750919dd4df0b73e9906d03",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750919f039e29701b728fff",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750919f039e29701b728fff",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -3380,108 +3380,108 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP17 = quests[IDS.GunsmithPart17].rewards.Started;
 					const newGP17P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091a350364322fcd50f40",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091a69ad43771b4de7c36",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091a69ad43771b4de7c36",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP17P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091ab6becc3193e8ce16a",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091afd5dba995699fcea8",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091afd5dba995699fcea8",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP17P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091b4106d888cc9388bd0",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091b79b1d017bbfa25daa",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091b79b1d017bbfa25daa",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP17P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091bb66e9becc2cbef0ce",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091bed73fb7886a6845a1",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091bed73fb7886a6845a1",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP17P5Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091c3d8c8ee7e652302a0",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091c5996daf04ab1d2a73",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091c5996daf04ab1d2a73",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP17P6Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091c9fab19813c45df981",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091cc6c4c1389785e781f",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091cc6c4c1389785e781f",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -3498,72 +3498,72 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP18 = quests[IDS.GunsmithPart18].rewards.Started;
 					const newGP18P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091d7253443752582d462",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091dac1d51950a9cede00",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091dac1d51950a9cede00",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP18P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091dfcaf38f057119eaeb",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091e24b3bb75ffebd8a57",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091e24b3bb75ffebd8a57",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP18P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091e7d01cbb59cd3853a5",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091ea49c9bc35e8a78828",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091ea49c9bc35e8a78828",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP18P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091f1be60ff2c2bdcec9c",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091f3ae49f1fbad5a824f",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091f3ae49f1fbad5a824f",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -3578,72 +3578,72 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP19 = quests[IDS.GunsmithPart19].rewards.Started;
 					const newGP19P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675091f9816903632738644f",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675091fd3b6e0ea6df29bdba",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675091fd3b6e0ea6df29bdba",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP19P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092033fa46daf05abfd10",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750920514b1a8fee1c9ca45",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750920514b1a8fee1c9ca45",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP19P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750920aaefb4456a0ff4361",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750920c4fffabd8f941a00c",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750920c4fffabd8f941a00c",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP19P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509211f48a74529ad451e3",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509213ead8feddb5807c63",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509213ead8feddb5807c63",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -3658,90 +3658,90 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP20 = quests[IDS.GunsmithPart20].rewards.Started;
 					const newGP20P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750921929aee52b1a456935",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750921c10a0a0db1a2527fb",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750921c10a0a0db1a2527fb",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP20P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509221d97b89bf825dacb5",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750922785db1f93a56367ca",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750922785db1f93a56367ca",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP20P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750922b0237397b7b237f44",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750922e2882a267d7485961",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750922e2882a267d7485961",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP20P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509232ec5a6afc4bf0c133",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509234b87d50d395934717",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509234b87d50d395934717",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP20P5Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509239e2d220b6c3374337",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750923c121b03b798a43e04",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750923c121b03b798a43e04",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -3758,126 +3758,126 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP21M1911 = quests[IDS.GunsmithPart21].rewards.Started;
 					const newGP21P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750924336d3e6b01db5d53e",
 						"index": 2,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509246f8e8dabe87367f98",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509246f8e8dabe87367f98",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP21P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750924b18957ba0d9e7bb94",
 						"index": 2,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750924d004d9ea6a72e5283",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750924d004d9ea6a72e5283",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP21P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509254e5ab5e544650c72b",
 						"index": 2,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509256ac7e1840344fedb3",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509256ac7e1840344fedb3",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP21M1P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750925c4fa4627c741aa6f6",
 						"index": 3,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750925e0f5066d3bf875aec",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750925e0f5066d3bf875aec",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP21M1P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750926730f9f6cabedcae6e",
 						"index": 3,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750926c9a3c3e8700b128c2",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750926c9a3c3e8700b128c2",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP21M1P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509273933f5b59f3187a46",
 						"index": 3,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750927529c9da993301531e",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750927529c9da993301531e",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP21M1P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092798af96212f9cfaf63",
 						"index": 3,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750927c4dacee3fb43b83ea",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750927c4dacee3fb43b83ea",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -3895,144 +3895,144 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP22 = quests[IDS.GunsmithPart22].rewards.Started;
 					const newGP22P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509282ae9ee27f130d8d5e",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092859e7b9552789b1663",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092859e7b9552789b1663",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP22P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750928c768c1021a35f75be",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750928e70bd242a0e07ebc1",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750928e70bd242a0e07ebc1",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP22P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750929420a9ac29be963b5c",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509298d6d2c4afffa2c19f",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509298d6d2c4afffa2c19f",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP22P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750929dde8cf9c69d423bb6",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092a09f2972010db11abc",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092a09f2972010db11abc",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP22P5Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092a50aa6a0745238ae4c",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092a871d1d95fa5574d20",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092a871d1d95fa5574d20",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP22P6Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092ad57a00f87e61eb96f",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092b0a80b97875ddff1ca",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092b0a80b97875ddff1ca",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP22P7Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092b4d9de68696cdde7fb",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092b6215fcb05d7f90a22",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092b6215fcb05d7f90a22",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP22P8Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092ba69e1be41c89a1ce1",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092bedac30450033ee21a",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092bedac30450033ee21a",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -4051,108 +4051,108 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP23 = quests[IDS.GunsmithPart23].rewards.Started;
 					const newGP23P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092c3ba1594f7967c754c",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092c6babe36b3e7473576",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092c6babe36b3e7473576",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP23P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092cb84955f0dbba37f01",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092cd2a9c49f2814cb7a0",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092cd2a9c49f2814cb7a0",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP23P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092d2ca7124a42f92237b",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092d46ce3306f6eda8103",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092d46ce3306f6eda8103",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP23P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092da054196eb4b0a09b3",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092dc937210903d910d6b",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092dc937210903d910d6b",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP23P5Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092e08b53cbe0ed824d1f",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092e294e8bbdc928f8e38",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092e294e8bbdc928f8e38",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP23P6Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092e7ae351e7a01f1c720",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092e965a27723a98f2b6c",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092e965a27723a98f2b6c",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -4169,180 +4169,180 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP24 = quests[IDS.GunsmithPart24].rewards.Started;
 					const newGP24P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092ef6b51eebf7264a301",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092f1eabe96111184473b",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092f1eabe96111184473b",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP24P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092f6864643b2542a84fd",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675092f9484da94d530bd201",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675092f9484da94d530bd201",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP24P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675092ff9fd2070147fb4ecf",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675093022f2d098df6677938",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675093022f2d098df6677938",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP24P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750930ce05fac807353474c",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509306e908e129f52401ac",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509306e908e129f52401ac",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP24P5Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750931140652a7a60dd7023",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750931338c18fe65fd3691b",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750931338c18fe65fd3691b",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP24P6Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750931a7205721e2f9af740",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750931d8c1394b99aefe289",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750931d8c1394b99aefe289",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP24P7Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509323fae53b1a6f1a80b0",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509326cf42ffc280bbd4b6",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509326cf42ffc280bbd4b6",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP24P8Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750932d80e35e245e9b4675",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509330575903d69f2bd702",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509330575903d69f2bd702",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP24P9Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675093393fd7f49918eedff9",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750933c0fc38c8e1ed38d26",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750933c0fc38c8e1ed38d26",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP24P10Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509340c71323581f954873",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509345354a97ac59c170e3",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509345354a97ac59c170e3",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
@@ -4363,180 +4363,180 @@ class Mod implements IPostDBLoadMod {
                     const setupGunsmithP25 = quests[IDS.GunsmithPart25].rewards.Started;
 					const newGP25P1Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750934b1b7da4536e9abea5",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750934d7f9908e32161b2f9",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750934d7f9908e32161b2f9",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP25P2Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509352979353c88d8dee2a",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675093557f4e63abdee53c59",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675093557f4e63abdee53c59",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP25P3Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509359471a776e16f0c5e1",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750935cac2e61b901ecb945",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750935cac2e61b901ecb945",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP25P4Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675093609dd00a83de04274d",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "675093641d96c2764dfbc625",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "675093641d96c2764dfbc625",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP25P5Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509367060c646700d0f772",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750936b073a57cd64097bfb",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750936b073a57cd64097bfb",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP25P6Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675093700ef6e2b52926c0e2",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509372b5a1e85e1bf0d100",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509372b5a1e85e1bf0d100",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP25P7Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "67509378627fd5abab7e4a9a",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "6750937a8c07122db1cc146b",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "6750937a8c07122db1cc146b",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP25P8Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675093808b692d7fc9309fbb",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509382adac582c8bae3843",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509382adac582c8bae3843",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP25P9Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "675093878c1c3e82f907ccae",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509389fb51235b74970e2c",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509389fb51235b74970e2c",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
 					}
 					const newGP25P10Reward = {
 						"findInRaid": true,
-						"id": "Generate",
+						"id": "6750938c4ea584b383340e69",
 						"index": 1,
 						"items": [
 							{
-								"_id": "",
+								"_id": "67509390365bb819f65bcfe9",
 								"_tpl": "", // 
 								"upd": {
 									"StackObjectsCount": 1
 								}
 							}
 						],
-						"target": "",
+						"target": "67509390365bb819f65bcfe9",
 						"type": QuestRewardType.ITEM,
 						"unknown": false,
 						"value": 1
