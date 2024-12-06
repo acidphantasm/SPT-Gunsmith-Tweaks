@@ -1,4 +1,5 @@
 {
     "enabled": true,
-    "LoreAccurate": false
+    "LoreAccurate": false,
+    "Debug": true
 }
