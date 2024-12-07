@@ -1,20 +1,15 @@
 import { DependencyContainer } from "tsyringe";
 
-import { Weapons } from "@spt/models/enums/Weapons";
 import { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
-import { ILogger } from "@spt/models/spt/utils/ILogger";
 import { DatabaseService } from "@spt/services/DatabaseService";
+import { ItemHelper } from "@spt/helpers/ItemHelper";
 
-import CONFIG from "../config/config.json";
-import { ItemType } from "@spt/models/eft/common/tables/ITemplateItem";
-import { QuestRewardType } from "@spt/models/enums/QuestRewardType";
-
+import config from "../config/config.json";
 import defaultRewards = require("../db/Default.json");
 import loreAccurate = require("../db/LoreAccurate.json");
 
-import { ItemHelper } from "@spt/helpers/ItemHelper";
-
-export const IDS = {
+/*
+Gunsmith IDs for reference
     GunsmithPart1: "5ac23c6186f7741247042bad", // Gunsmith Part 1 - GUN: MP-133
     GunsmithPart2: "5ac2426c86f774138762edfe", // Gunsmith Part 2 - GUN: AKS-74U
     GunsmithPart3: "5ac2428686f77412450b42bf", // Gunsmith Part 3 - GUN: MP5
@@ -40,7 +35,7 @@ export const IDS = {
     GunsmithPart23: "64f83bb69878a0569d6ecfbe", // Gunsmith Part 23 - GUN: CMMG Mk47 Mutant - Parts: 6
     GunsmithPart24: "64f83bcdde58fc437700d8fa", // Gunsmith Part 24 - GUN: KAC SR-25 - Parts: 10
     GunsmithPart25: "64f83bd983cfca080a362c82", // Gunsmith Part 25 - GUN: PKP machine gun - Parts: 10
-};
+*/
 
 
 class Mod implements IPostDBLoadMod {
@@ -53,18 +48,18 @@ class Mod implements IPostDBLoadMod {
         const db = container.resolve<DatabaseService>("DatabaseService");
         const questTable = db.getQuests();
 
-        const selectedRewardConfig = CONFIG.LoreAccurate ? loreAccurate : defaultRewards;
+        const selectedRewardConfig = config.LoreAccurate ? loreAccurate : defaultRewards;
 
-        if (CONFIG.enabled) 
+        if (config.enabled) 
         { // Enable or disable the mod
-            if (CONFIG.debugLogging) console.log(`${logPrefix} Applying Gunsmith tweaks...`);
+            if (config.debugLogging) console.log(`${logPrefix} Applying Gunsmith tweaks...`);
 
             for (const quest in selectedRewardConfig)
             {
                 const gunsmithQuest = selectedRewardConfig[quest]
                 for (const reward in gunsmithQuest)
                 {
-                    if (CONFIG.debugLogging)
+                    if (config.debugLogging)
                     {
                         const itemName = itemHelper.getItemName(gunsmithQuest[reward].items[0]._tpl)
                         console.log(`${logPrefix} Quest: ${questTable[quest].QuestName} || Reward: ${itemName}`);
